@@ -42,6 +42,8 @@ class App extends Component {
             </div>
           </div>
           <Route exact path="/mytransaction" component={MyTransaction} />
+          <Route exact path="/" component={MyTransaction} />
+
           <Route exact path="/settings" component={Settings} />
           <Route exact path="/logout" component={Logout} />
         </div>
